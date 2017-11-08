@@ -16,7 +16,7 @@
 				</a>
 				<ul class="site-navigation">
 					<li class="site-navigation-item">
-						<a>Каталог</a>
+						<a class="current-navigation">Каталог</a>
 					</li>
 					<li class="site-navigation-item">
 						<a href="shipping-and-payment.html">Доставка и оплата</a>
@@ -76,9 +76,12 @@
 					<form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
 						<div class="filter-line-1">
 							<div class="sort">
-								<label for="sort-select">Сортировка:</label>
+								<label class="sort-title" for="sort-select">Сортировка:</label>
 								<select class="sort-select" id="sort-select" name="sort-select">
 									<option value="popularity">по популярности</option>
+									<option value="ascending price">сначала недорогие</option>
+									<option value="descending price">сначала дорогие</option>
+									<option value="oiliness">по жирности</option>
 								</select>
 							</div>
 							<div class="range-filter">

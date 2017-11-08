@@ -239,8 +239,24 @@
 	 				<p class="made-by">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2017</p>
 	 			</div>
 	 		</footer>
+	 		<section class="modal">
+	 			<h2 class="visually-hidden">Обратная связь</h2>
+	 			<p class="modal-title">Мы обязательно вам ответим!</p>
+	 			<button class="close visually-hidden" type="button"><span class="visually-hidden">Закрыть</span></button>
+	 			<form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
+	 				<label class="modal-label" for="name"><span class="visually-hidden">Введите имя:</span></label>
+	 				<input type="text" id="name" name="name" placeholder="Как вас зовут?">
+	 				<label class="modal-label" for="mail"><span class="visually-hidden">Введите почту:</span></label>
+	 				<input type="text" id="mail" name="mail" placeholder="Ваша почта для ответа?">
+	 				<label class="modal-label" for="comment"><span class="visually-hidden">Комментарий</span></label>
+	 				<textarea id="comment" name="comment" placeholder="Напишите что-нибудь..."></textarea>
+	 				<button type="submit">Отправить</button>
+	 			</form>
+	 		</section>
 
  		</div>
+
+
 		
 		<script src="js/modal.js" type="text/javascript"></script>	
   	</body>
