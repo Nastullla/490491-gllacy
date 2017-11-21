@@ -10,7 +10,8 @@ var comment = popup.querySelector("[name=comment]");
 
 btnFeedback.addEventListener("click", function (evt) {
     evt.preventDefault();
-	  popup.classList.remove("modal-hide");
+    popup.classList.remove("modal-error");
+	popup.classList.remove("modal-hide");
     overlay.classList.remove("modal-hide");
     fildName.focus();
 });
